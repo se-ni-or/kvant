@@ -1,0 +1,184 @@
+
+body {
+
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+button {
+	border: none;
+	background: none;
+}
+input {
+	border: none;
+}
+textarea {
+	border: none;
+}
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+/*-----------------header-------------------*/
+.header {
+	display: flex;
+	margin-top: 32px;
+	padding: 20px;
+}
+.logo {
+	padding: 0 29px 0 42px;
+	border-right: 1px #E2E5E9 solid;
+}
+.header-menu {
+	width: 1310px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border-radius: 80px;
+	border: 1px solid rgba(255, 255, 255, 0.47);
+	box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.10);
+	backdrop-filter: blur(25px);
+	position: absolute;
+}
+._header-mrgn {
+	margin: 0 65px 0;
+}
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-left: 41px;
+}
+.nav-menu__products {
+	display: flex;
+	gap: 53px;
+}
+.product-item {
+	display: flex;
+}
+.product-link {
+	display: flex;
+	gap: 6px;
+}
+.nav-menu__items {
+	display: flex;
+	gap: 30px;
+	padding-right: 42px;
+}
+/*-------------------software-solutions-------------------*/
+.solutions {
+	display: flex;
+	padding-bottom: 106px;
+}
+.circle {
+	padding: 0 272px 0 585px;
+	margin-top: -80px;
+	margin-bottom: -294px;
+}
+.solutions__text {
+	width: 576px;
+	padding: 86px 0 0 142px;
+}
+.text-solutions {
+	font-size: 44px;
+	font-weight: 700;
+	padding: 0 25px 13px 0;
+}
+.text-methods {
+	font-size: 20px;
+	font-weight: 700;
+	color: #06F;
+	padding-bottom: 26px;
+}
+.text-paragraph {
+	font-size: 16px;
+	color: #8D8F93;
+	padding-bottom: 52px;
+}
+.solutions-btn {
+	cursor: pointer;
+}
+
+.solutions-btn {
+	border-radius: 50px;
+	background:  #202020;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 19px 12px 19px 33px;
+}
+.btn-arrow {
+	padding-right: 33px;
+}
+.solutions__registry {
+	padding-top: 20px;
+}
+._registry {
+	margin-left: -160px;
+}
+.registry-btn {
+	display: flex;
+	align-items: center;
+	width: 360px;
+	height: 115px;
+	cursor: pointer;
+	border-radius: 100px;
+	border: 1px solid #FFF;
+	background: rgba(224, 232, 237, 0.32);
+	box-shadow: 5px 12px 22px 0 rgba(106, 146, 175, 0.15);
+	backdrop-filter: blur(5px);
+	padding: 30px 40px 33px 47px;
+	gap: 27px;
+}
+._btn-reg {
+	margin-left: 362px;
+	margin-top: -120px;
+}
+.registry-text {
+	font-size: 12px;
+	color: #202020;
+}
+.registry-bold {
+	font-weight: 700;
+}
+/*-------------------offers-------------------*/
+.offers__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 27px 150px 107px 142px;
+}
+.offers__item {
+	padding: 0 132px 95px 0;
+}
+.offers__img {
+	display: flex;
+	min-height: 44px;
+	align-items: end;
+	padding-bottom: 24px;
+}
+.img-offers {
+	
+}
+.title-offers {
+	padding-bottom: 14px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #505B67;
+}
+.text-offers {
+	font-size: 16px;
+	color: #8D8F93;
+}
